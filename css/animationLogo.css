@@ -1,16 +1,31 @@
  /* The animation code */
 @keyframes animatedSquare {
-  0%   {background-color: red;}
-  25%  {background-color: yellow;}
-  50%  {background-color: blue;}
-  100% {background-color: green;}
+  0%   {
+    background-color:deepskyblue;
+    right: 10%;
+  }
+  25%  {
+    background-color:cornflowerblue;
+    left: 20%;
+  }
+  50%  {
+    background-color:dodgerblue;
+    left: 30%;
+  }
+  100% {
+    background-color: #0072b1;
+    right: 40%;
+  }
 }
 
 /* The element to apply the animation to */
 div {
-  width: 50px;
+  margin-left: 50%;
+  margin-bottom: 200px;
+  width: 100px;
   height: 100px;
-  background-color: red;
+  border-radius: 50%;
+  margin-top: 60px;
   animation-name: animatedSquare;
   animation-duration: 4s;
   animation-iteration-count: infinite;    

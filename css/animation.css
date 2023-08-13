@@ -9,8 +9,8 @@
 }
 .linkedin:hover{
   animation: 
-  iconmove 5s ease 1 alternate forwards,
-  fall 10s 5s ease alternate forwards;
+  iconmove 5s linear 1 alternate forwards,
+  fall 10s 5s linear alternate forwards;
 }
 @keyframes iconmove{
   0%{
